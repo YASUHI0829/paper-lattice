@@ -1,0 +1,601 @@
+[
+  {
+    "paper_id": "9a801d8f6ed1",
+    "title": "Synthetic Crystal Plasticity Reading Note",
+    "source_path": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+    "domain": "crystal_plasticity",
+    "fields": {
+      "title": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "Synthetic Crystal Plasticity Reading Note"
+        }
+      ],
+      "material_system": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The paper card describes a BCC ferritic steel study using crystal plasticity finite element modeling to connect microstructure, slip resistance, and macroscopic stress-strain response."
+        }
+      ],
+      "processing_or_microstructure": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The validation target is a uniaxial tensile stress-strain curve combined with texture evolution from EBSD."
+        },
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The main claim is that calibrated hardening parameters can reproduce the early yield point and the subsequent work-hardening slope when grain orientation statistics are represented by a realistic polycrystal aggregate."
+        }
+      ],
+      "crystal_structure": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The paper card describes a BCC ferritic steel study using crystal plasticity finite element modeling to connect microstructure, slip resistance, and macroscopic stress-strain response."
+        }
+      ],
+      "deformation_mode": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The paper card describes a BCC ferritic steel study using crystal plasticity finite element modeling to connect microstructure, slip resistance, and macroscopic stress-strain response."
+        },
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The model family is a dislocation-density based constitutive law."
+        }
+      ],
+      "temperature_and_strain_rate": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The key parameters include initial slip resistance, forest hardening coefficient, recovery coefficient, and strain-rate sensitivity."
+        },
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "Important limitations are the simplified treatment of grain-boundary effects, the absence of explicit damage evolution, and the risk that one calibrated parameter set may not transfer across strain rates or heat treatments."
+        }
+      ],
+      "model_family": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "For a literature review, compare this model against phenomenological power-law crystal plasticity and viscoplastic self-consistent approaches."
+        },
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The paper card describes a BCC ferritic steel study using crystal plasticity finite element modeling to connect microstructure, slip resistance, and macroscopic stress-strain response."
+        }
+      ],
+      "hardening_law": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The key parameters include initial slip resistance, forest hardening coefficient, recovery coefficient, and strain-rate sensitivity."
+        },
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The paper card describes a BCC ferritic steel study using crystal plasticity finite element modeling to connect microstructure, slip resistance, and macroscopic stress-strain response."
+        }
+      ],
+      "key_parameters": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The key parameters include initial slip resistance, forest hardening coefficient, recovery coefficient, and strain-rate sensitivity."
+        },
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The main claim is that calibrated hardening parameters can reproduce the early yield point and the subsequent work-hardening slope when grain orientation statistics are represented by a realistic polycrystal aggregate."
+        }
+      ],
+      "equations": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "Track which papers report equations, parameter units, calibration targets, and validation metrics."
+        }
+      ],
+      "calibration_data": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The main claim is that calibrated hardening parameters can reproduce the early yield point and the subsequent work-hardening slope when grain orientation statistics are represented by a realistic polycrystal aggregate."
+        },
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "Important limitations are the simplified treatment of grain-boundary effects, the absence of explicit damage evolution, and the risk that one calibrated parameter set may not transfer across strain rates or heat treatments."
+        }
+      ],
+      "validation_data": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The validation target is a uniaxial tensile stress-strain curve combined with texture evolution from EBSD."
+        },
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "Mark claims as strong only when the evidence includes both global stress-strain curves and local microstructure-sensitive validation."
+        }
+      ],
+      "main_claims": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The paper card describes a BCC ferritic steel study using crystal plasticity finite element modeling to connect microstructure, slip resistance, and macroscopic stress-strain response."
+        },
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "The main claim is that calibrated hardening parameters can reproduce the early yield point and the subsequent work-hardening slope when grain orientation statistics are represented by a realistic polycrystal aggregate."
+        }
+      ],
+      "assumptions": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "Important limitations are the simplified treatment of grain-boundary effects, the absence of explicit damage evolution, and the risk that one calibrated parameter set may not transfer across strain rates or heat treatments."
+        }
+      ],
+      "limitations": [
+        {
+          "chunk": "9a801d8f6ed1-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.md",
+          "text": "Important limitations are the simplified treatment of grain-boundary effects, the absence of explicit damage evolution, and the risk that one calibrated parameter set may not transfer across strain rates or heat treatments."
+        }
+      ]
+    },
+    "missing_fields": [
+      "slip_or_twin_systems",
+      "reusable_dataset_or_code"
+    ]
+  },
+  {
+    "paper_id": "32d9de606ff3",
+    "title": "Synthetic BCC Ferritic Steel Crystal Plasticity Benchmark",
+    "source_path": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+    "domain": "crystal_plasticity",
+    "fields": {
+      "title": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Synthetic BCC Ferritic Steel Crystal Plasticity Benchmark"
+        }
+      ],
+      "material_system": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "crystal plasticity, CPFEM, BCC steel, hardening, EBSD"
+        },
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Abstract: This synthetic record describes a BCC ferritic steel CPFEM study using a dislocation-density based hardening law."
+        },
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, CPFEM, BCC steel, hardening, EBSD"
+        }
+      ],
+      "processing_or_microstructure": [
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, CPFEM, BCC steel, hardening, EBSD"
+        },
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Validation data include stress-strain curves and EBSD texture evolution."
+        }
+      ],
+      "crystal_structure": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "crystal plasticity, CPFEM, BCC steel, hardening, EBSD"
+        },
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Abstract: This synthetic record describes a BCC ferritic steel CPFEM study using a dislocation-density based hardening law."
+        },
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, CPFEM, BCC steel, hardening, EBSD"
+        }
+      ],
+      "deformation_mode": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "crystal plasticity, CPFEM, BCC steel, hardening, EBSD"
+        },
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Abstract: This synthetic record describes a BCC ferritic steel CPFEM study using a dislocation-density based hardening law."
+        }
+      ],
+      "temperature_and_strain_rate": [
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "The main limitation is transferability across strain rates and heat treatments."
+        }
+      ],
+      "model_family": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "crystal plasticity, CPFEM, BCC steel, hardening, EBSD"
+        },
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, CPFEM, BCC steel, hardening, EBSD"
+        },
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Abstract: This synthetic record describes a BCC ferritic steel CPFEM study using a dislocation-density based hardening law."
+        }
+      ],
+      "hardening_law": [
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Abstract: This synthetic record describes a BCC ferritic steel CPFEM study using a dislocation-density based hardening law."
+        },
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, CPFEM, BCC steel, hardening, EBSD"
+        }
+      ],
+      "validation_data": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "This synthetic record describes a BCC ferritic steel CPFEM study using a dislocation-density based hardening law. Validation data include stress-strain curves and EBSD texture evolution. The main limitation is transferability across strain rates and heat treatments."
+        },
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Validation data include stress-strain curves and EBSD texture evolution."
+        },
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, CPFEM, BCC steel, hardening, EBSD"
+        }
+      ],
+      "main_claims": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "This synthetic record describes a BCC ferritic steel CPFEM study using a dislocation-density based hardening law. Validation data include stress-strain curves and EBSD texture evolution. The main limitation is transferability across strain rates and heat treatments."
+        }
+      ],
+      "limitations": [
+        {
+          "chunk": "32d9de606ff3-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "The main limitation is transferability across strain rates and heat treatments."
+        }
+      ]
+    },
+    "missing_fields": [
+      "slip_or_twin_systems",
+      "key_parameters",
+      "equations",
+      "calibration_data",
+      "assumptions",
+      "reusable_dataset_or_code"
+    ]
+  },
+  {
+    "paper_id": "4111983414c7",
+    "title": "Synthetic HCP Alloy Twinning Plasticity Note",
+    "source_path": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+    "domain": "crystal_plasticity",
+    "fields": {
+      "title": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Synthetic HCP Alloy Twinning Plasticity Note"
+        }
+      ],
+      "material_system": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "crystal plasticity, HCP alloy, twinning, texture, validation"
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Abstract: This synthetic record focuses on HCP alloy deformation where slip and twinning systems control texture evolution."
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, HCP alloy, twinning, texture, validation"
+        }
+      ],
+      "processing_or_microstructure": [
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Abstract: This synthetic record focuses on HCP alloy deformation where slip and twinning systems control texture evolution."
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, HCP alloy, twinning, texture, validation"
+        }
+      ],
+      "crystal_structure": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "crystal plasticity, HCP alloy, twinning, texture, validation"
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Abstract: This synthetic record focuses on HCP alloy deformation where slip and twinning systems control texture evolution."
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, HCP alloy, twinning, texture, validation"
+        }
+      ],
+      "deformation_mode": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "crystal plasticity, HCP alloy, twinning, texture, validation"
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Abstract: This synthetic record focuses on HCP alloy deformation where slip and twinning systems control texture evolution."
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, HCP alloy, twinning, texture, validation"
+        }
+      ],
+      "model_family": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "crystal plasticity, HCP alloy, twinning, texture, validation"
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, HCP alloy, twinning, texture, validation"
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "The constitutive model is validated against stress-strain response and local strain fields, while hardening assumptions remain weakly constrained."
+        }
+      ],
+      "slip_or_twin_systems": [
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Abstract: This synthetic record focuses on HCP alloy deformation where slip and twinning systems control texture evolution."
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, HCP alloy, twinning, texture, validation"
+        }
+      ],
+      "hardening_law": [
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "The constitutive model is validated against stress-strain response and local strain fields, while hardening assumptions remain weakly constrained."
+        }
+      ],
+      "validation_data": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "This synthetic record focuses on HCP alloy deformation where slip and twinning systems control texture evolution. The constitutive model is validated against stress-strain response and local strain fields, while hardening assumptions remain weakly constrained."
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Keywords: crystal plasticity, HCP alloy, twinning, texture, validation"
+        },
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "Abstract: This synthetic record focuses on HCP alloy deformation where slip and twinning systems control texture evolution."
+        }
+      ],
+      "main_claims": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "This synthetic record focuses on HCP alloy deformation where slip and twinning systems control texture evolution. The constitutive model is validated against stress-strain response and local strain fields, while hardening assumptions remain weakly constrained."
+        }
+      ],
+      "assumptions": [
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "The constitutive model is validated against stress-strain response and local strain fields, while hardening assumptions remain weakly constrained."
+        }
+      ],
+      "limitations": [
+        {
+          "chunk": "4111983414c7-0000",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.bib",
+          "text": "The constitutive model is validated against stress-strain response and local strain fields, while hardening assumptions remain weakly constrained."
+        }
+      ]
+    },
+    "missing_fields": [
+      "temperature_and_strain_rate",
+      "key_parameters",
+      "equations",
+      "calibration_data",
+      "reusable_dataset_or_code"
+    ]
+  },
+  {
+    "paper_id": "ad5642c0fa79",
+    "title": "Synthetic Crystal Plasticity PDF",
+    "source_path": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf",
+    "domain": "crystal_plasticity",
+    "fields": {
+      "title": [
+        {
+          "chunk": "metadata",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf",
+          "text": "Synthetic Crystal Plasticity PDF"
+        }
+      ],
+      "material_system": [
+        {
+          "chunk": "ad5642c0fa79-0000 (p. 1)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=1",
+          "text": "Synthetic Crystal Plasticity PDF Page 1: A BCC ferritic steel CPFEM study links EBSD texture, stress-strain validation, and grain orientation statistics."
+        },
+        {
+          "chunk": "ad5642c0fa79-0000 (p. 1)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=1",
+          "text": "Evidence focus: material system, crystal structure, validation data."
+        }
+      ],
+      "processing_or_microstructure": [
+        {
+          "chunk": "ad5642c0fa79-0000 (p. 1)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=1",
+          "text": "Synthetic Crystal Plasticity PDF Page 1: A BCC ferritic steel CPFEM study links EBSD texture, stress-strain validation, and grain orientation statistics."
+        }
+      ],
+      "crystal_structure": [
+        {
+          "chunk": "ad5642c0fa79-0000 (p. 1)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=1",
+          "text": "Synthetic Crystal Plasticity PDF Page 1: A BCC ferritic steel CPFEM study links EBSD texture, stress-strain validation, and grain orientation statistics."
+        },
+        {
+          "chunk": "ad5642c0fa79-0000 (p. 1)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=1",
+          "text": "Evidence focus: material system, crystal structure, validation data."
+        }
+      ],
+      "deformation_mode": [
+        {
+          "chunk": "ad5642c0fa79-0001 (p. 2)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=2",
+          "text": "Dislocation-Density Hardening Page 2: The constitutive model uses dislocation density hardening, initial slip resistance, recovery, and forest hardening parameters."
+        }
+      ],
+      "temperature_and_strain_rate": [
+        {
+          "chunk": "ad5642c0fa79-0001 (p. 2)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=2",
+          "text": "Open limitation: the calibrated parameter set may not transfer across strain rates or heat treatments."
+        }
+      ],
+      "model_family": [
+        {
+          "chunk": "ad5642c0fa79-0000 (p. 1)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=1",
+          "text": "Synthetic Crystal Plasticity PDF Page 1: A BCC ferritic steel CPFEM study links EBSD texture, stress-strain validation, and grain orientation statistics."
+        },
+        {
+          "chunk": "ad5642c0fa79-0001 (p. 2)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=2",
+          "text": "Dislocation-Density Hardening Page 2: The constitutive model uses dislocation density hardening, initial slip resistance, recovery, and forest hardening parameters."
+        }
+      ],
+      "hardening_law": [
+        {
+          "chunk": "ad5642c0fa79-0001 (p. 2)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=2",
+          "text": "Dislocation-Density Hardening Page 2: The constitutive model uses dislocation density hardening, initial slip resistance, recovery, and forest hardening parameters."
+        }
+      ],
+      "key_parameters": [
+        {
+          "chunk": "ad5642c0fa79-0001 (p. 2)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=2",
+          "text": "Dislocation-Density Hardening Page 2: The constitutive model uses dislocation density hardening, initial slip resistance, recovery, and forest hardening parameters."
+        },
+        {
+          "chunk": "ad5642c0fa79-0001 (p. 2)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=2",
+          "text": "Open limitation: the calibrated parameter set may not transfer across strain rates or heat treatments."
+        }
+      ],
+      "calibration_data": [
+        {
+          "chunk": "ad5642c0fa79-0001 (p. 2)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=2",
+          "text": "Open limitation: the calibrated parameter set may not transfer across strain rates or heat treatments."
+        }
+      ],
+      "validation_data": [
+        {
+          "chunk": "ad5642c0fa79-0000 (p. 1)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=1",
+          "text": "Synthetic Crystal Plasticity PDF Page 1: A BCC ferritic steel CPFEM study links EBSD texture, stress-strain validation, and grain orientation statistics."
+        },
+        {
+          "chunk": "ad5642c0fa79-0000 (p. 1)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=1",
+          "text": "Evidence focus: material system, crystal structure, validation data."
+        }
+      ],
+      "main_claims": [
+        {
+          "chunk": "ad5642c0fa79-0000 (p. 1)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=1",
+          "text": "Synthetic Crystal Plasticity PDF Page 1: A BCC ferritic steel CPFEM study links EBSD texture, stress-strain validation, and grain orientation statistics."
+        }
+      ],
+      "limitations": [
+        {
+          "chunk": "ad5642c0fa79-0001 (p. 2)",
+          "source": "D:\\Research\\paper-lattice\\examples\\crystal_plasticity_seed.pdf#page=2",
+          "text": "Open limitation: the calibrated parameter set may not transfer across strain rates or heat treatments."
+        }
+      ]
+    },
+    "missing_fields": [
+      "slip_or_twin_systems",
+      "equations",
+      "assumptions",
+      "reusable_dataset_or_code"
+    ]
+  }
+]

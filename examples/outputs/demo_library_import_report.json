@@ -1,0 +1,34 @@
+{
+  "files": 3,
+  "imported_files": 3,
+  "skipped_files": 0,
+  "error_files": 0,
+  "papers": 4,
+  "chunks": 5,
+  "records": [
+    {
+      "path": "examples\\demo_library\\crystal_plasticity_notes.md",
+      "kind": "document",
+      "status": "imported",
+      "paper_count": 1,
+      "chunk_count": 1,
+      "message": "Crystal Plasticity Demo Notes"
+    },
+    {
+      "path": "examples\\demo_library\\crystal_plasticity_seed.pdf",
+      "kind": "document",
+      "status": "imported",
+      "paper_count": 1,
+      "chunk_count": 2,
+      "message": "Synthetic Crystal Plasticity PDF"
+    },
+    {
+      "path": "examples\\demo_library\\references.bib",
+      "kind": "bibtex",
+      "status": "imported",
+      "paper_count": 2,
+      "chunk_count": 2,
+      "message": ""
+    }
+  ]
+}

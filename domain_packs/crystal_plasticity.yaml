@@ -1,0 +1,72 @@
+name: crystal_plasticity
+version: 0.1.0
+description: Domain schema for crystal plasticity and CPFEM literature analysis.
+
+entities:
+  material_system:
+    examples:
+      - ferritic steel
+      - FCC alloy
+      - BCC refractory alloy
+      - magnesium alloy
+  crystal_structure:
+    examples:
+      - BCC
+      - FCC
+      - HCP
+  deformation_mechanism:
+    examples:
+      - dislocation glide
+      - twinning
+      - phase transformation
+      - grain-boundary mediated plasticity
+  model_family:
+    examples:
+      - phenomenological crystal plasticity
+      - dislocation-density based model
+      - viscoplastic self-consistent model
+      - FFT-based CPFEM
+  validation_target:
+    examples:
+      - stress-strain curve
+      - texture evolution
+      - lattice strain
+      - slip trace
+      - local strain field
+
+extraction_fields:
+  - title
+  - material_system
+  - processing_or_microstructure
+  - crystal_structure
+  - deformation_mode
+  - temperature_and_strain_rate
+  - model_family
+  - slip_or_twin_systems
+  - hardening_law
+  - key_parameters
+  - equations
+  - calibration_data
+  - validation_data
+  - main_claims
+  - assumptions
+  - limitations
+  - reusable_dataset_or_code
+
+agent_tasks:
+  scout:
+    goal: Expand a research question into materials, mechanisms, model families, and synonyms.
+  extractor:
+    goal: Convert chunks into structured paper cards with chunk-level evidence.
+  equation_tracer:
+    goal: Link parameters and equations to physical meaning and calibration targets.
+  comparison_builder:
+    goal: Produce method and evidence comparison matrices.
+  skeptic:
+    goal: Identify unsupported claims, missing validation, and weak cross-paper links.
+
+starter_queries:
+  - Compare phenomenological and dislocation-density crystal plasticity models.
+  - Find how BCC ferritic steels calibrate slip resistance and hardening.
+  - Map papers that validate CPFEM against texture evolution.
+  - Extract assumptions behind strain-rate sensitivity parameters.
